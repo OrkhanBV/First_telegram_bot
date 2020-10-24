@@ -8,7 +8,7 @@ namespace telegram
 {
     class Program
     {
-        const string TOKEN = "1307823169:AAEhyMxnJXAnQJWONwCg2keQFbAW2-j4NTA";
+        const string TOKEN = "";
         static void Main(string[] args)
         {
             while (true)
