@@ -8,7 +8,7 @@ namespace telegram
 {
     class Program : Message_handler
     {
-        const string TOKEN = "";
+        const string TOKEN = "1307823169:AAEhyMxnJXAnQJWONwCg2keQFbAW2-j4NTA";
         static void Main(string[] args)
         {
             while (true)
@@ -25,9 +25,5 @@ namespace telegram
             }
         }
     }
-<<<<<<< HEAD
 }
-=======
 
-}
->>>>>>> 1c2f17620a8267d81ed1ea05c13f0b77111eb4ff
