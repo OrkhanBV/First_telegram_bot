@@ -1,0 +1,16 @@
+/home/orhan/Desktop/SHARP_TEST/telegram/telegram/bin/Debug/netcoreapp3.1/telegram
+/home/orhan/Desktop/SHARP_TEST/telegram/telegram/bin/Debug/netcoreapp3.1/telegram.deps.json
+/home/orhan/Desktop/SHARP_TEST/telegram/telegram/bin/Debug/netcoreapp3.1/telegram.runtimeconfig.json
+/home/orhan/Desktop/SHARP_TEST/telegram/telegram/bin/Debug/netcoreapp3.1/telegram.runtimeconfig.dev.json
+/home/orhan/Desktop/SHARP_TEST/telegram/telegram/bin/Debug/netcoreapp3.1/telegram.dll
+/home/orhan/Desktop/SHARP_TEST/telegram/telegram/bin/Debug/netcoreapp3.1/telegram.pdb
+/home/orhan/Desktop/SHARP_TEST/telegram/telegram/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/orhan/Desktop/SHARP_TEST/telegram/telegram/bin/Debug/netcoreapp3.1/Telegram.Bot.dll
+/home/orhan/Desktop/SHARP_TEST/telegram/telegram/obj/Debug/netcoreapp3.1/telegram.csprojAssemblyReference.cache
+/home/orhan/Desktop/SHARP_TEST/telegram/telegram/obj/Debug/netcoreapp3.1/telegram.AssemblyInfoInputs.cache
+/home/orhan/Desktop/SHARP_TEST/telegram/telegram/obj/Debug/netcoreapp3.1/telegram.AssemblyInfo.cs
+/home/orhan/Desktop/SHARP_TEST/telegram/telegram/obj/Debug/netcoreapp3.1/telegram.csproj.CoreCompileInputs.cache
+/home/orhan/Desktop/SHARP_TEST/telegram/telegram/obj/Debug/netcoreapp3.1/telegram.csproj.CopyComplete
+/home/orhan/Desktop/SHARP_TEST/telegram/telegram/obj/Debug/netcoreapp3.1/telegram.dll
+/home/orhan/Desktop/SHARP_TEST/telegram/telegram/obj/Debug/netcoreapp3.1/telegram.pdb
+/home/orhan/Desktop/SHARP_TEST/telegram/telegram/obj/Debug/netcoreapp3.1/telegram.genruntimeconfig.cache
