@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Odzv3sgAF/gHPplQAQAjvDhk7lAutxphDTQo+zJ58Ez8vVSpkf+R2Mi3rtP2SK8qYI2+GuvAVV/JQ22NS1zwCg==",
+  "dgSpecHash": "pHsSVLXY1xrzZtdl/b4wyA7rsfjYRoZ4w61StGyKOY2ZErtXHPbzySp0RFPn0nhoQzBx5cwwnhSAPfr+xoyoLA==",
   "success": true,
-  "projectFilePath": "/home/orhan/Desktop/SHARP_TEST/telegram/telegram/telegram.csproj",
+  "projectFilePath": "/home/orhan/Desktop/Telegramm/telegram/telegram/telegram.csproj",
   "expectedPackageFiles": [
     "/home/orhan/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/home/orhan/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",

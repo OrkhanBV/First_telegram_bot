@@ -4,20 +4,44 @@
     <projectFile>telegram/telegram.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1be6250-c6f5-43a8-bdf0-02a91f9db68a" name="Default Changelist" comment="" />
+    <list default="true" id="b1be6250-c6f5-43a8-bdf0-02a91f9db68a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.telegram/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.telegram/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.telegram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.telegram/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/bin/Debug/netcoreapp3.1/telegram.dll" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/bin/Debug/netcoreapp3.1/telegram.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/bin/Debug/netcoreapp3.1/telegram.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/bin/Debug/netcoreapp3.1/telegram.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/obj/Debug/netcoreapp3.1/telegram.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/obj/Debug/netcoreapp3.1/telegram.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/obj/Debug/netcoreapp3.1/telegram.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/obj/Debug/netcoreapp3.1/telegram.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/obj/Debug/netcoreapp3.1/telegram.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/obj/Debug/netcoreapp3.1/telegram.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/obj/Debug/netcoreapp3.1/telegram.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/obj/Debug/netcoreapp3.1/telegram.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/obj/Debug/netcoreapp3.1/telegram.dll" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/obj/Debug/netcoreapp3.1/telegram.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/obj/Debug/netcoreapp3.1/telegram.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/obj/Debug/netcoreapp3.1/telegram.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/obj/telegram.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/obj/telegram.csproj.nuget.dgspec.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/telegram/Message.cs" />
         <option value="$PROJECT_DIR$/telegram/Program.cs" />
+        <option value="$PROJECT_DIR$/telegram/Message_handler.cs" />
+        <option value="$PROJECT_DIR$/telegram/RecomendedLinks.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1jElLoHMNSNs9bm0yYFlKokcwYX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,6 +83,7 @@
       <updated>1603377080662</updated>
       <workItem from="1603377090255" duration="14692000" />
       <workItem from="1603545525076" duration="6179000" />
+      <workItem from="1603560363866" duration="5394000" />
     </task>
     <servers />
   </component>

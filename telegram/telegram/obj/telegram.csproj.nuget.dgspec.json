@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/orhan/Desktop/SHARP_TEST/telegram/telegram/telegram.csproj": {}
+    "/home/orhan/Desktop/Telegramm/telegram/telegram/telegram.csproj": {}
   },
   "projects": {
-    "/home/orhan/Desktop/SHARP_TEST/telegram/telegram/telegram.csproj": {
+    "/home/orhan/Desktop/Telegramm/telegram/telegram/telegram.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/orhan/Desktop/SHARP_TEST/telegram/telegram/telegram.csproj",
+        "projectUniqueName": "/home/orhan/Desktop/Telegramm/telegram/telegram/telegram.csproj",
         "projectName": "telegram",
-        "projectPath": "/home/orhan/Desktop/SHARP_TEST/telegram/telegram/telegram.csproj",
+        "projectPath": "/home/orhan/Desktop/Telegramm/telegram/telegram/telegram.csproj",
         "packagesPath": "/home/orhan/.nuget/packages/",
-        "outputPath": "/home/orhan/Desktop/SHARP_TEST/telegram/telegram/obj/",
+        "outputPath": "/home/orhan/Desktop/Telegramm/telegram/telegram/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/orhan/.nuget/NuGet/NuGet.Config"
