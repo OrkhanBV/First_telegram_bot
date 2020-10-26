@@ -23,15 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1be6250-c6f5-43a8-bdf0-02a91f9db68a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.telegram/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.telegram/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.telegram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.telegram/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/telegram/BroKhanBot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/BroKhanBot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/telegram/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/telegram/RecomendedLinks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/RecomendedLinks.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/telegram/bin/Debug/netcoreapp3.1/telegram.dll" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/bin/Debug/netcoreapp3.1/telegram.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/telegram/bin/Debug/netcoreapp3.1/telegram.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/bin/Debug/netcoreapp3.1/telegram.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/telegram/obj/Debug/netcoreapp3.1/telegram.dll" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/obj/Debug/netcoreapp3.1/telegram.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/telegram/obj/Debug/netcoreapp3.1/telegram.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/obj/Debug/netcoreapp3.1/telegram.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +43,7 @@
         <option value="$PROJECT_DIR$/telegram/Keyboard_Buttons.cs" />
         <option value="$PROJECT_DIR$/telegram/Program.cs" />
         <option value="$PROJECT_DIR$/telegram/RecomendedLinks.cs" />
+        <option value="$PROJECT_DIR$/telegram/IventHandler.cs" />
         <option value="$PROJECT_DIR$/telegram/BroKhanBot.cs" />
       </list>
     </option>
@@ -102,7 +95,7 @@
       <workItem from="1603560363866" duration="14048000" />
       <workItem from="1603580862512" duration="4739000" />
       <workItem from="1603630512434" duration="3556000" />
-      <workItem from="1603636705646" duration="11994000" />
+      <workItem from="1603636705646" duration="12421000" />
     </task>
     <servers />
   </component>
@@ -126,30 +119,30 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1324" height="133" key="GridCell.Tab.0.bottom" timestamp="1603717506740">
+    <state width="1324" height="133" key="GridCell.Tab.0.bottom" timestamp="1603718151702">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
     <state width="1304" height="163" key="GridCell.Tab.0.bottom/0.0.1366.737/1366.0.1024.768@0.0.1366.737" timestamp="1603382233432" />
     <state width="1238" height="208" key="GridCell.Tab.0.bottom/0.0.1366.737/1366.0.1024.768@1366.0.1024.768" timestamp="1603470957588" />
-    <state width="1324" height="133" key="GridCell.Tab.0.bottom/0.0.1366.737@0.0.1366.737" timestamp="1603717506740" />
-    <state width="1324" height="133" key="GridCell.Tab.0.center" timestamp="1603717506740">
+    <state width="1324" height="133" key="GridCell.Tab.0.bottom/0.0.1366.737@0.0.1366.737" timestamp="1603718151702" />
+    <state width="1324" height="133" key="GridCell.Tab.0.center" timestamp="1603718151701">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
     <state width="1304" height="163" key="GridCell.Tab.0.center/0.0.1366.737/1366.0.1024.768@0.0.1366.737" timestamp="1603382233431" />
     <state width="1238" height="208" key="GridCell.Tab.0.center/0.0.1366.737/1366.0.1024.768@1366.0.1024.768" timestamp="1603470957588" />
-    <state width="1324" height="133" key="GridCell.Tab.0.center/0.0.1366.737@0.0.1366.737" timestamp="1603717506740" />
-    <state width="1324" height="133" key="GridCell.Tab.0.left" timestamp="1603717506740">
+    <state width="1324" height="133" key="GridCell.Tab.0.center/0.0.1366.737@0.0.1366.737" timestamp="1603718151701" />
+    <state width="1324" height="133" key="GridCell.Tab.0.left" timestamp="1603718151699">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
     <state width="1304" height="163" key="GridCell.Tab.0.left/0.0.1366.737/1366.0.1024.768@0.0.1366.737" timestamp="1603382233431" />
     <state width="1238" height="208" key="GridCell.Tab.0.left/0.0.1366.737/1366.0.1024.768@1366.0.1024.768" timestamp="1603470957588" />
-    <state width="1324" height="133" key="GridCell.Tab.0.left/0.0.1366.737@0.0.1366.737" timestamp="1603717506740" />
-    <state width="1324" height="133" key="GridCell.Tab.0.right" timestamp="1603717506740">
+    <state width="1324" height="133" key="GridCell.Tab.0.left/0.0.1366.737@0.0.1366.737" timestamp="1603718151699" />
+    <state width="1324" height="133" key="GridCell.Tab.0.right" timestamp="1603718151701">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
     <state width="1304" height="163" key="GridCell.Tab.0.right/0.0.1366.737/1366.0.1024.768@0.0.1366.737" timestamp="1603382233432" />
     <state width="1238" height="208" key="GridCell.Tab.0.right/0.0.1366.737/1366.0.1024.768@1366.0.1024.768" timestamp="1603470957588" />
-    <state width="1324" height="133" key="GridCell.Tab.0.right/0.0.1366.737@0.0.1366.737" timestamp="1603717506740" />
+    <state width="1324" height="133" key="GridCell.Tab.0.right/0.0.1366.737@0.0.1366.737" timestamp="1603718151701" />
     <state width="1324" height="246" key="GridCell.Tab.1.bottom" timestamp="1603548302636">
       <screen x="0" y="0" width="1366" height="737" />
     </state>
