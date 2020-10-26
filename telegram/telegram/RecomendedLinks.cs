@@ -6,13 +6,15 @@ using System;
 //
 namespace telegram
 {
-    public class RecomendedLinks
+    public class DataStorage
     {
         public string link1 = "Первое : Metanit \n https://metanit.com/sharp/tutorial/ ";
         public string link2 = "Второе : Professorweb \n https://professorweb.ru/my/csharp/charp_theory/level1/index.php";
+        
         public string link3 = "Первое : Metanit \n https://metanit.com/sql/sqlserver/ \n\n";
         public string link4 = "Второе : Professorweb \n https://professorweb.ru/my/sql-server/2012/level1/ \n\n";
         public string link5 = "Третье : YouTube \n https://youtu.be/jb_gkVQqikA";
+        
         public string link6 =    "Первое : Вводдная часть \n1)  https://www.youtube.com/watch?v=tiRIWEnvsPI \n";
         public string link7 = "2)  https://youtu.be/E0t2CYo0qSk \n";
         public string link8 = "3)  https://youtu.be/PsLzEAsphbM \n\n\n";
@@ -35,7 +37,7 @@ namespace telegram
         public string link23 = "2)  https://andrey.moveax.ru/post/owin-introduction-part1\n";
         public string link24 = "3)  https://habr.com/ru/post/202018/\n";
 
-
+        
 
     }
 }

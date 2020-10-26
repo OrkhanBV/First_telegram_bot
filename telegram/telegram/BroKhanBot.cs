@@ -1,10 +1,5 @@
 using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Net.Sockets;
 using Telegram.Bot;
-using Telegram.Bot.Types.Enums;
-using Telegram.Bot.Types.ReplyMarkups;
 using System.Threading.Tasks;
 using Telegram.Bot.Types;
 
@@ -28,11 +23,11 @@ using Telegram.Bot.Types;
 
 namespace telegram
 {
-    public class Setlink
+    public class IventHandler
     {
-        public async Task Link_manager(TelegramBotClient bot, Update update)
+        public async Task getIventSendLink(TelegramBotClient bot, Update update)
         {
-            RecomendedLinks Links = new RecomendedLinks();
+            DataStorage links = new DataStorage();
 
                 var message = update.Message;
                 if (message.Text[0] == 'L') ///////////////сделать сигнальный символ после которого будет ввод ссылки!!
@@ -44,19 +39,15 @@ namespace telegram
                     await bot.SendTextMessageAsync(message.Chat.Id,
                         "DO YOU WANT A HOT BROMANCE?? BROKHANBOT WANT IT!!!"); ///Написать usage как добавлять ссылки в БД спец символ тема ссылки сама ссылка! хранение реализовать по типу стека или очереди
                 if (message.Text == "Материалы С#")
-                    await bot.SendTextMessageAsync(message.Chat.Id, (Links.link1 + Links.link2));
+                    await bot.SendTextMessageAsync(message.Chat.Id, (links.link1 + links.link2));
                 if (message.Text == "Материалы SQL")
-                    await bot.SendTextMessageAsync(message.Chat.Id, (Links.link3 + Links.link4 + Links.link5));
+                    await bot.SendTextMessageAsync(message.Chat.Id, (links.link3 + links.link4 + links.link5));
                 if (message.Text == "Основы Web")
-                    await bot.SendTextMessageAsync(message.Chat.Id, (Links.link6 + Links.link7 + Links.link8
-                                                                     + Links.link9 + Links.link10 + Links.link11 +
-                                                                     Links.link12
-                                                                     + Links.link13 + Links.link14 + Links.link15 +
-                                                                     Links.link16
-                                                                     + Links.link17 + Links.link18 + Links.link19 +
-                                                                     Links.link20
-                                                                     + Links.link21 + Links.link22 + Links.link23 +
-                                                                     Links.link24));
+                    await bot.SendTextMessageAsync(message.Chat.Id, (links.link6 + links.link7 + links.link8
+                    + links.link9 + links.link10 + links.link11 + links.link12
+                    + links.link13 + links.link14 + links.link15 + links.link16
+                    + links.link17 + links.link18 + links.link19 + links.link20
+                    + links.link21 + links.link22 + links.link23 + links.link24));
                 if (message.Text== "Паттерны проектирования")
                 {
                     await bot.SendTextMessageAsync(message.Chat.Id,
@@ -78,12 +69,12 @@ namespace telegram
 {
     public class BroKhanBot
     {
-            private const string TOKEN = "";
+            private const string TOKEN = "1307823169:AAEhyMxnJXAnQJWONwCg2keQFbAW2-j4NTA";
             public static async Task GetMessages()
             {
                 TelegramBotClient bot = new TelegramBotClient(TOKEN);
                 KeyboardButtons buttons = new KeyboardButtons();
-                Setlink setlink = new Setlink();
+                IventHandler iventHandler = new IventHandler();
                 int offset = 0;
                 int timeout = 0;
                 try
@@ -95,7 +86,7 @@ namespace telegram
                         foreach (var update in updates)
                         {
                             await buttons.create_buttons(bot, update);
-                            await setlink.Link_manager(bot, update);
+                            await iventHandler.getIventSendLink(bot, update);
                             offset = update.Id + 1;
                         }
                     }
