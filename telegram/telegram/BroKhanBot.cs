@@ -1,7 +1,6 @@
 using System;
 using Telegram.Bot;
 using System.Threading.Tasks;
-using Telegram.Bot.Types;
 
 /*
  * System.Threading.Tasks
@@ -22,9 +21,9 @@ using Telegram.Bot.Types;
 
 namespace telegram
 {
-    public class BroKhanBot
+    public class BroKhanBot 
     {
-            private const string TOKEN = "";
+        private const string TOKEN = ;
             public static async Task GetMessages()
             {
                 TelegramBotClient bot = new TelegramBotClient(TOKEN);

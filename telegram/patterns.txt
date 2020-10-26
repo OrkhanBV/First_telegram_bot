@@ -1,0 +1,7 @@
+ПАТТЕРНЫ ПРОЕКТИРОВАНИЯ
+
+Первое :
+	https://metanit.com/sharp/patterns/
+
+Второе :
+	https://refactoring.guru/ru/design-patterns/catalog

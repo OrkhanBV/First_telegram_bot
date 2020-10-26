@@ -13,10 +13,10 @@ namespace telegram
             Console.WriteLine(text);
             return (text);
         }
-        public string links_part1 = readFileStore(@"/home/orhan/Desktop/Telegramm/telegram/c_sharp.txt");
-        public string links_part2 = readFileStore(@"/home/orhan/Desktop/Telegramm/telegram/sql_links.txt");
-        public string links_part3 = readFileStore(@"/home/orhan/Desktop/Telegramm/telegram/web_links.txt");
-        
-        
+        public string links_c_sharp = readFileStore(@"/home/orhan/Desktop/Telegramm/telegram/c_sharp.txt");
+        public string links_sql = readFileStore(@"/home/orhan/Desktop/Telegramm/telegram/sql_links.txt");
+        public string links_web = readFileStore(@"/home/orhan/Desktop/Telegramm/telegram/web_links.txt");
+        public string links_patterns = readFileStore(@"/home/orhan/Desktop/Telegramm/telegram/patterns.txt");
+        public string links_subd = readFileStore(@"/home/orhan/Desktop/Telegramm/telegram/subd.txt");
     }
 }
