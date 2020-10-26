@@ -16,7 +16,6 @@ namespace telegram
                 try
                 {
                     GetMessages().Wait();
-                    
                 }
                 catch (Exception e)
                 {
