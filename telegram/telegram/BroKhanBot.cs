@@ -69,7 +69,7 @@ namespace telegram
 {
     public class BroKhanBot
     {
-            private const string TOKEN = "1307823169:AAEhyMxnJXAnQJWONwCg2keQFbAW2-j4NTA";
+            private const string TOKEN = "";
             public static async Task GetMessages()
             {
                 TelegramBotClient bot = new TelegramBotClient(TOKEN);
