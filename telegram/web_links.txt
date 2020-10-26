@@ -1,0 +1,30 @@
+Первое : Вводдная часть
+	1)  https://www.youtube.com/watch?v=tiRIWEnvsPI
+        2)  https://youtu.be/E0t2CYo0qSk
+        3)  https://youtu.be/PsLzEAsphbM
+
+
+Второе : Модель OSI 
+	1)  https://youtu.be/i16XviL8YMY
+        2)  https://professorweb.ru/my/csharp/web/level1/1_2.php
+
+
+Третье : Основы ASP.NET приложений
+	1)  https://metanit.com/sharp/aspnet_webapi/
+	2)  https://docs.microsoft.com/ru-ru/aspnet/web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api
+Дополнительно :
+        1)  https://metanit.com/sharp/articles/mvc/13.php
+        2)  https://metanit.com/sharp/articles/mvc/10.php
+        3)  https://habr.com/ru/post/189086/
+
+
+Четвертое : 
+        COMET: WebSockets, LongPooling, Server Sent Events SignalR
+        1)  https://metanit.com/sharp/mvc5/16.1.php
+ 	2)  https://docs.microsoft.com/ru-ru/aspnet/signalr/overview/getting-started/introduction-to-signalr
+        
+	
+"Пятое : OWIN и Katana
+        1)  https://metanit.com/sharp/mvc5/11.1.php
+        2)  https://andrey.moveax.ru/post/owin-introduction-part1
+        3)  https://habr.com/ru/post/202018/

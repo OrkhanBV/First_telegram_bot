@@ -1,0 +1,8 @@
+Первое : 
+	Metanit \n https://metanit.com/sql/sqlserver/
+
+Второе : 
+	Professorweb \n https://professorweb.ru/my/sql-server/2012/level1/
+
+Третье : 
+	YouTube \n https://youtu.be/jb_gkVQqikA
