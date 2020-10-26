@@ -25,34 +25,6 @@ using Telegram.Bot.Types;
  * 
  */
 
-namespace telegram
-{
-    public class Keyboard_buttons
-    {
-        public async Task create_buttons(TelegramBotClient bot, Update update)
-        {
-            var message = update.Message;
-            var keybord = new ReplyKeyboardMarkup
-            {
-                Keyboard = new[]
-                {
-                    new[]
-                    {
-                        new KeyboardButton("Материалы С#"),
-                        new KeyboardButton("Материалы SQL"),
-                        new KeyboardButton("Основы Web")
-                    },
-                    new[] { new KeyboardButton("Работа с данными (СУБД + NET)") },
-                    new[] { new KeyboardButton("Паттерны проектирования") },
-                    new[] { new KeyboardButton("Bro button")}
-                    }
-            };
-            if (message.Text == "/start")
-                await bot.SendTextMessageAsync(message.Chat.Id, "Привет Top Bro " + message.Chat.Username,
-                    ParseMode.Html, false, false, 0, keybord);
-        }
-    }
-}
 
 namespace telegram
 {
@@ -104,35 +76,35 @@ namespace telegram
 
 namespace telegram
 {
-    public class Message_handler
+    public class BroKhanBot
     {
-        const string TOKEN = "";
-        public static async Task GetMessages( )
-        {
-            TelegramBotClient bot = new TelegramBotClient(TOKEN);
-            Keyboard_buttons buttons = new Keyboard_buttons();
-            Setlink setlink = new Setlink();
-            int offset = 0;
-            int timeout = 0;
-            try
+            private const string TOKEN = "";
+            public static async Task GetMessages()
             {
-                await bot.SetWebhookAsync("");
-                while (true)
+                TelegramBotClient bot = new TelegramBotClient(TOKEN);
+                KeyboardButtons buttons = new KeyboardButtons();
+                Setlink setlink = new Setlink();
+                int offset = 0;
+                int timeout = 0;
+                try
                 {
-                    var updates = await bot.GetUpdatesAsync(offset, timeout);
-                    foreach (var update in updates)
+                    await bot.SetWebhookAsync("");
+                    while (true)
                     {
-                        await buttons.create_buttons(bot, update);
-                        await setlink.Link_manager(bot, update);
-                        offset = update.Id + 1;
+                        var updates = await bot.GetUpdatesAsync(offset, timeout);
+                        foreach (var update in updates)
+                        {
+                            await buttons.create_buttons(bot, update);
+                            await setlink.Link_manager(bot, update);
+                            offset = update.Id + 1;
+                        }
                     }
                 }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Error :" + e);
+                    throw;
+                }
             }
-            catch (Exception e)
-            {
-                Console.WriteLine("Error :" + e);
-                throw;
-            }
-        }
     }
 }

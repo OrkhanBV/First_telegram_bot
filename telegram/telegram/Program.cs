@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace telegram
 {
-    class Program : Message_handler
+    class Program : BroKhanBot
     {
-        const string TOKEN = "1307823169:AAEhyMxnJXAnQJWONwCg2keQFbAW2-j4NTA";
+        
         static void Main(string[] args)
         {
             while (true)

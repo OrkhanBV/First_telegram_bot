@@ -6,7 +6,8 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="telegram" t="IncludeRecursive">
-        <e p="Message_handler.cs" t="Include" />
+        <e p="BroKhanBot.cs" t="Include" />
+        <e p="Keyboard_Buttons.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="RecomendedLinks.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
