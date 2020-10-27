@@ -1,5 +1,5 @@
-Первое : 
-	https://professorweb.ru/my/ADO_NET/base/level1/ado_net_index.php
+СУБД
+ 
+	1) https://professorweb.ru/my/ADO_NET/base/level1/ado_net_index.php
 
-Второе : 
-	https://metanit.com/sharp/entityframework/	
+	2) https://metanit.com/sharp/entityframework/	

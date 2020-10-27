@@ -1,8 +1,17 @@
-Первое : 
-	Metanit \n https://metanit.com/sql/sqlserver/
+			ОСНОВЫ SQL
 
-Второе : 
-	Professorweb \n https://professorweb.ru/my/sql-server/2012/level1/
 
-Третье : 
-	YouTube \n https://youtu.be/jb_gkVQqikA
+Понимание основ реляционных БД, схемы, таблицы, строки
+1)	Metanit \n https://metanit.com/sql/sqlserver/
+
+
+2)	Professorweb \n https://professorweb.ru/my/sql-server/2012/level1/
+
+ 
+3)	YouTube \n https://youtu.be/jb_gkVQqikA
+
+
+Основы оптимизации, планы запросов
+1)	https://www.essentialsql.com/what-is-a-query-plan/
+
+2)	https://developer.rackspace.com/blog/understanding-a-sql-server-execution-plan/

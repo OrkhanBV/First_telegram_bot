@@ -21,14 +21,15 @@ using System.Threading.Tasks;
 
 namespace telegram
 {
-    public class BroKhanBot 
+    public class BroKhanBot
     {
-        private const string TOKEN = ;
+        private const string TOKEN = "";
+        
             public static async Task GetMessages()
             {
-                TelegramBotClient bot = new TelegramBotClient(TOKEN);
                 KeyboardButtons buttons = new KeyboardButtons();
                 IventHandler iventHandler = new IventHandler();
+                TelegramBotClient bot = new TelegramBotClient(TOKEN);
                 int offset = 0;
                 int timeout = 0;
                 try

@@ -1,30 +1,84 @@
-Первое : Вводдная часть
-	1)  https://www.youtube.com/watch?v=tiRIWEnvsPI
-        2)  https://youtu.be/E0t2CYo0qSk
-        3)  https://youtu.be/PsLzEAsphbM
+ОСНОВЫ WEB
+Цель: получить понимание работы web приложений, серверов, сетевого стека, а также на основе этого как строятся приложения в .NET Framework мире на примере ASP.NET приложения
 
 
-Второе : Модель OSI 
-	1)  https://youtu.be/i16XviL8YMY
-        2)  https://professorweb.ru/my/csharp/web/level1/1_2.php
+БЛОК 1
+1) Вводная лекция по работе web-а
+	https://www.youtube.com/watch?v=tiRIWEnvsPI
+        https://youtu.be/E0t2CYo0qSk
+        https://youtu.be/PsLzEAsphbM
 
 
-Третье : Основы ASP.NET приложений
-	1)  https://metanit.com/sharp/aspnet_webapi/
-	2)  https://docs.microsoft.com/ru-ru/aspnet/web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api
-Дополнительно :
-        1)  https://metanit.com/sharp/articles/mvc/13.php
-        2)  https://metanit.com/sharp/articles/mvc/10.php
-        3)  https://habr.com/ru/post/189086/
+2) Модель OSI 
+	https://youtu.be/i16XviL8YMY
+        https://professorweb.ru/my/csharp/web/level1/1_2.php
 
 
-Четвертое : 
-        COMET: WebSockets, LongPooling, Server Sent Events SignalR
-        1)  https://metanit.com/sharp/mvc5/16.1.php
- 	2)  https://docs.microsoft.com/ru-ru/aspnet/signalr/overview/getting-started/introduction-to-signalr
+3) Основы ASP.NET приложений
+	https://metanit.com/sharp/aspnet_webapi/
+	https://docs.microsoft.com/ru-ru/aspnet/web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api
+
+
+4) Дополнительно по основам ASP.NET приложений:
+        https://metanit.com/sharp/articles/mvc/13.php
+        https://metanit.com/sharp/articles/mvc/10.php
+        https://habr.com/ru/post/189086/
+
+
+5) COMET: WebSockets, LongPooling, Server Sent Events SignalR
+        https://metanit.com/sharp/mvc5/16.1.php
+ 	ttps://docs.microsoft.com/ru-ru/aspnet/signalr/overview/getting-started/introduction-to-signalr
         
 	
-"Пятое : OWIN и Katana
-        1)  https://metanit.com/sharp/mvc5/11.1.php
-        2)  https://andrey.moveax.ru/post/owin-introduction-part1
-        3)  https://habr.com/ru/post/202018/
+6) OWIN и Katana
+        https://metanit.com/sharp/mvc5/11.1.php
+        https://andrey.moveax.ru/post/owin-introduction-part1
+        https://habr.com/ru/post/202018/
+
+
+
+
+БЛОК 2
+РАБОТА С ДАННЫМИ.
+Блок предназначен познакомиться с основными взаимодействия с РСУБД из .NET приложения
+
+1) DAL Основы ADO.NET:
+	https://professorweb.ru/my/ADO_NET/base/level1/ado_net_index.php
+
+2) Основы Entity Framework
+	https://metanit.com/sharp/entityframework/
+
+
+
+
+БЛОК 3
+Блок предназначения для понимания современных подходов и приемов к проектированию web приложения
+
+РАБОТА С API
+1) REST:
+	https://habr.com/ru/post/38730/
+
+2) Аутентификация:
+	https://habr.com/ru/company/dataart/blog/311376/
+	https://habr.com/ru/company/mailru/blog/343288/
+	https://habr.com/ru/company/dataart/blog/262817/
+	
+ОСНОВЫ ПРОЕКТИРОВАНИЯ
+1) Dependency injection и зависимости:
+	https://habr.com/ru/post/434380/
+	https://habr.com/ru/post/176007/
+	https://medium.com/@chrisverwijs/a-step-by-step-guide-to-using-ninject-for-dependency-injection-in-c-68a125bd7fa4
+
+2) SOLID:
+	http://sergeyteplyakov.blogspot.com/2014/10/solid.html
+
+3) Архитектура: layered и другие типы
+	https://martinfowler.com/bliki/PresentationDomainDataLayering.html
+	https://habr.com/ru/company/it-grad/blog/276297/
+
+4) Паттерны корпоративных приложений:
+	https://martinfowler.com/eaaCatalog/
+
+	
+	
+

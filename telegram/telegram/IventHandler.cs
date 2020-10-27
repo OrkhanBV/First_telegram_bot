@@ -23,13 +23,11 @@ namespace telegram
                     await bot.SendTextMessageAsync(message.Chat.Id, (links.links_web));
                 if (message.Text== "Паттерны проектирования")
                     await bot.SendTextMessageAsync(message.Chat.Id, links.links_patterns);
-                if (message.Text == "Работа с данными (СУБД + NET)")
-                    await bot.SendTextMessageAsync(message.Chat.Id,links.links_subd);
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                Console.WriteLine("UPSSS IT IS ERROR");
+                Console.WriteLine("IT IS ERROR");
                 throw;
             }
             

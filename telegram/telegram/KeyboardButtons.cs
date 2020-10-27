@@ -21,7 +21,6 @@ namespace telegram
                         new KeyboardButton("Материалы SQL"),
                         new KeyboardButton("Основы Web")
                     },
-                    new[] { new KeyboardButton("Работа с данными (СУБД + NET)") },
                     new[] { new KeyboardButton("Паттерны проектирования") },
                     new[] { new KeyboardButton("Bro button")}
                 }
