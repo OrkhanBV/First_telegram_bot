@@ -1,5 +1,0 @@
-СУБД
- 
-	1) https://professorweb.ru/my/ADO_NET/base/level1/ado_net_index.php
-
-	2) https://metanit.com/sharp/entityframework/	
